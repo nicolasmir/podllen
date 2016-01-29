@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="podlle">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta name="author" content="Podlle">
+    <title>Podlle</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/paper.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="libs/angular-material/angular-material.min.css">
+</head>
+
+<body>
+
+
+
+<div layout="column" style="height:500px;" ng-cloak>
+ <section layout="row" flex>
+   <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+
+     <md-content layout-padding ng-controler="LeftCtrl">
+          <a href="#"<i class="material-icons">dashboard</i></a>
+          <a href="#/explore"<i class="material-icons">explore</i></a>
+          <a href="#/radio"<i class="material-icons">radio</i></a>
+          <a href="#/favorites"<i class="material-icons">favorite</i></a>
+        <a href="#/profile" > <img class="img-circle profile" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11011288_1036066603077833_8027400463769780072_n.jpg?oh=d2eede6c0af78a218dfb99906fddc356&oe=5717000E" alt="profile" /></a>
+     </md-content>
+   </md-sidenav>
+   <md-content flex layout-padding>
+
+   <div class="navbar navbar-default navbar-fixed-top">
+
+   </div>
+
+        <div ng-view></div>
+
+   </md-content>
+
+ </section>
+</div>
+
+
+
+<script src="libs/angular/angular.min.js"></script>
+<script src="libs/angular-route/angular-route.min.js"></script>
+<script src="libs/jquery/dist/jquery.js"></script>
+<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="libs/parse/parse.js"></script>
+<script src="libs/parse/parse.min.js"></script>
+<script src="libs/soundcloud/sdk.js"></script>
+
+<script src="javascripts/app.js"></script>
+<script src="javascripts/controllers/podlle.js"></script>
+<script src="javascripts/scripts/scripts.js"></script>
+
+
+</body>
+</html>

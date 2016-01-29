@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+@font-face {
+    font-family:proxima bold;
+    src: url(../fonts/ProximaNovaSoft-Bold.otf);
+}
+
+html{
+  font-family: Verela Round;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+  text-decoration:
+}
+
+
+
+a.material-icons{
+  color: white;
+  font-size: 47px;
+  margin-left: 13px;
+  margin-top: 55px;
+}
+
+a.material-icons:hover{
+  font-size: 60px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+a.material-icons:focus{
+  text-decoration: none;
+  font-size: 60px;
+  margin-left: 5px;
+}
+
+
+.img-circle.profile{
+  width: 45px;
+  margin-left: 15px;
+  margin-top: 300px;
+  position: sticky;
+}
+
+
+.md-sidenav-left.md-whiteframe-z2{
+  background: #ff6666;
+  width: 70px;
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+  visibility: hidden;
+}
+
+@media (max-width: 1920px) {
+  .img-circle.profile{
+    width: 45px;
+    margin-left: 10px;
+    margin-top: 430%;
+  }
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .md-sidenav-left.md-whiteframe-z2{
+    visibility: hidden;
+  }
+  .navbar.navbar-default.navbar-fixed-top{
+    visibility: visible;
+    background: #ff6666;
+  }
+
+ .navbar-default .navbar-brand{
+   color: white;
+   font-weight: bolder;
+ }
+
+	}
+
+.md-sidenav-left.md-whiteframe-z2{
+  background-color: #ff6666;
+
+}

@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+@font-face {
+    font-family:proxima bold;
+    src: url(../fonts/ProximaNovaSoft-Bold.otf);
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.col-md-4.sgnin-part{
+  height: 100%;
+  background-color: white;
+}
+
+.col-md-8.signin-blanck{
+ background-color: #ff6666;
+ height: 100%;
+ visibility: visible;;
+}
+
+.title{
+  color: #ff6666;
+  font-family: proxima bold;
+  margin-left: 30px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.title-up{
+  color: #ff6666;
+  font-family: proxima bold;
+  margin-left: 30px;
+  font-size: 35px;
+  text-align: center;;
+}
+
+.title-2{
+  color: grey;
+  font-family: Varela Round;
+  margin-left: 30px;
+  margin-top: 59px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.parag-up{
+  color: grey;
+  font-family: Varela Round;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.form-control.name{
+  font-family: Varela Round;
+  color: grey;
+  width: 250px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: -20px;
+}
+
+.form-control.password{
+  font-family: Varela Round;
+  color: grey;
+  width: 250px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+.btn.btn-default.okay{
+  background-color: #ff6666;
+  font-family: proxima bold;
+  border-color: transparent;
+  color: white;
+  margin-top: 100px;
+  margin-left: -130px;
+}
+
+.keep{
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.signup{
+ font-family:  Varela Round;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-left:40px;
+}
+
+.signup-2{
+  color: #ff6666;
+}
+
+a.sign-link:hover{
+  text-decoration: none;
+}
+
+.btn.btn-default.continue{
+  margin-top: 0px;
+  background-color: #ff6666;
+  color: white;
+  margin-bottom:-100px;
+  margin-left: 35px;
+  font-family: proxima bold;
+  border-color: #ff6666;
+}
+
+.btn.btn-default.fb{
+ margin-left: 50px;
+ margin-top: 50px;
+ background-color: #3b5998;
+ border-color: transparent;
+ font-family: proxima bold;
+ color: white;
+ margin-bottom: -100px;
+}
+
+.btn.btn-default.fb2{
+  background-color: #3b5998;
+  font-family: proxima bold;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: -120px;
+  margin-left: 80px;
+}
+
+.form-control.selector{
+  font-family: Varela Round;
+  color: grey;
+  width: 200px;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.form-control.selector > option{
+  color: grey;
+}
+
+.modal-title{
+  text-align: center;
+  font-family: proxima bold;
+  color: #ff6666;
+}
+
+.md-sidenav-left{
+  background-color: white;
+  width: 600px;
+}
+
+
+.form-control.signup{
+  width: 350px;
+  margin-top: 20px;
+}
+
+.col-md-4.form-container{
+margin-left: 5%;
+}
+
+@media (max-width:480px) {
+
+  .col-md-4.form-container{
+  margin-left: -10%;
+  }
+
+  .col-md-8.signin-blanck{
+   background-color: red;
+   visibility: hidden;
+  }
+  .col-md-4.sgnin-part{
+    height: auto;
+  }
+}
