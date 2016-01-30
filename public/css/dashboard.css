@@ -1,87 +1,75 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-
-@font-face {
-    font-family:proxima bold;
-    src: url(../fonts/ProximaNovaSoft-Bold.otf);
-}
-
 html{
-  font-family: Verela Round;
-}
+	 	width: 100%;
+	 	height: 100%;
+	 }
 
-a{
-text-decoration: none;
-}
+	 body{
+	 	width: 100%;
+	 	height: 100%;
+	 }
 
-a:hover{
-  text-decoration:
-}
-
-
-
-a.material-icons{
-  color: white;
-  font-size: 47px;
-  margin-left: 13px;
-  margin-top: 55px;
-}
-
-a.material-icons:hover{
-  font-size: 60px;
-  margin-left: 5px;
-  text-decoration: none;
-}
-
-a.material-icons:focus{
-  text-decoration: none;
-  font-size: 60px;
-  margin-left: 5px;
-}
-
-
-.img-circle.profile{
-  width: 45px;
-  margin-left: 15px;
-  margin-top: 300px;
-  position: sticky;
-}
-
-
-.md-sidenav-left.md-whiteframe-z2{
-  background: #ff6666;
-  width: 70px;
-}
-
-.navbar.navbar-default.navbar-fixed-top{
-  visibility: hidden;
-}
-
-@media (max-width: 1920px) {
-  .img-circle.profile{
-    width: 45px;
-    margin-left: 10px;
-    margin-top: 430%;
-  }
-}
-
-
-@media only screen and (max-device-width: 480px) {
-  .md-sidenav-left.md-whiteframe-z2{
-    visibility: hidden;
-  }
-  .navbar.navbar-default.navbar-fixed-top{
-    visibility: visible;
-    background: #ff6666;
-  }
-
- .navbar-default .navbar-brand{
-   color: white;
-   font-weight: bolder;
- }
-
+	.col-md-1.bar{
+		width: 70px;
+		height: 100%;
+		background-color: #ff6666;
 	}
 
-.md-sidenav-left.md-whiteframe-z2{
-  background-color: #ff6666;
+	.navbar{
+		height:60px;
+		margin-left: 70px;
+	}
 
-}
+	.navbar-default .navbar-brand{
+		color: #ff6666;
+		text-align: center;
+		font-size: 30px;
+		margin-left: 46.5%;
+	}
+
+	.material-icons.bar.first{
+		color: white;
+		font-size: 40px;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+
+	.material-icons.bar{
+		color: white;
+		font-size: 40px;
+		margin-left: 0px;
+		margin-top: 50px;
+	}
+
+	.material-icons.bar:hover{
+		font-size: 60px;
+		margin-left: -10px;
+	}
+
+	.material-icons.bar.settings{
+		color: white;
+		font-size: 40px;
+		margin-left: 0px;
+		margin-top: 300px;
+	}
+
+	.nav.navbar-nav.navbar-right > li > a{
+		margin-right: 30px;
+		margin-top: 5px;
+	}
+
+	.img-circle.profile{
+		width: 40px;
+		margin-top: -10px;
+		margin-right: -15px;
+	}
+
+	.material-icons.navbar{
+		color: #ff6666;
+		margin-right: -50px;
+		margin-left: -20px;
+	}
+	.col-md-4.player{
+		background-color: white;
+		height: 59px;
+		margin-left: -220px;
+	}

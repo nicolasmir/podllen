@@ -3,44 +3,42 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="keywords" content="" />
-    <meta name="description" content="">
-    <meta name="author" content="Podlle">
     <title>Podlle</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/paper.css">
     <link rel="stylesheet" href="css/dashboard.css">
-    <link rel="stylesheet" href="libs/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
 
 
+  <div class="col-md-1 bar">
 
-<div layout="column" style="height:500px;" ng-cloak>
- <section layout="row" flex>
-   <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+   	 <a href=""><i class="material-icons bar first">dashboard</i></a>
+   	 <a href=""><i class="material-icons bar">explore</i></a>
+   	 <a href=""><i class="material-icons bar">radio</i></a>
+   	 <a href=""><i class="material-icons bar">favorite</i></a>
+   	 <a href=""><i class="material-icons bar">list</i></a>
 
-     <md-content layout-padding ng-controler="LeftCtrl">
-          <a href="#"<i class="material-icons">dashboard</i></a>
-          <a href="#/explore"<i class="material-icons">explore</i></a>
-          <a href="#/radio"<i class="material-icons">radio</i></a>
-          <a href="#/favorites"<i class="material-icons">favorite</i></a>
-        <a href="#/profile" > <img class="img-circle profile" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11011288_1036066603077833_8027400463769780072_n.jpg?oh=d2eede6c0af78a218dfb99906fddc356&oe=5717000E" alt="profile" /></a>
-     </md-content>
-   </md-sidenav>
-   <md-content flex layout-padding>
-
-   <div class="navbar navbar-default navbar-fixed-top">
-
+   	 <a href=""><i class="material-icons bar settings">settings</i></a>
    </div>
 
-        <div ng-view></div>
+    <div class="navbar navbar-default navbar-fixed-top">
+    	<a href="" class="navbar-brand"></a>
 
-   </md-content>
+    	 <div style="text-alight:center;">
+            <div class="col-md-4 player">
 
- </section>
-</div>
+            </div>
+    	 </div>
+
+    	 <ul class="nav navbar-nav navbar-right">
+              <li><a href=""><i class="material-icons navbar">cloud</i></a></li>
+              <li><a href=""><i class="material-icons navbar">search</i></a></li>
+              <li><a href="../navbar-static-top/"><img class="img-circle profile" src="https://scontent-bru2-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12366018_1131524166865409_6566858141780381554_o.jpg"></a></li>
+            </ul>
+    </div>
+
 
 
 
